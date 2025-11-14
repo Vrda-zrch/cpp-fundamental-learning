@@ -54,3 +54,48 @@ Bahasa ini cocok dipelajari karena fleksibel, cepat, dan powerful.
 Gunakan **MinGW** atau **MSYS2**  
 ```bash
 g++ --version
+---
+
+## 🧠 Dasar C++: Penjelasan Lengkap
+
+### 🔹 Struktur Dasar Program C++
+Setiap program C++ minimal memiliki struktur:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello World!";
+    return 0; 
+}
+int umur = 15;
+double tinggi = 155.5;
+bool hidup = true;
+string nama = "Verda";
+a + b
+a - b
+a * b
+a / b
+a % b
+&&   // AND
+||   // OR
+!    // NOT
+int umur = 17;
+
+if (umur >= 18) {
+    cout << "Dewasa";
+} else {
+    cout << "Belum dewasa";
+}
+==  !=  >  <  >=  <=
+int angka = 2;
+
+switch(angka){
+    case 1: cout << "Satu"; break;
+    case 2: cout << "Dua"; break;
+    default: cout << "Tidak diketahui";
+}
+for (int i = 1; i <= 5; i++) {
+    cout << i << endl;
+}
