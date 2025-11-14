@@ -53,4 +53,8 @@ Bahasa ini cocok dipelajari karena fleksibel, cepat, dan powerful.
 ### Windows  
 Gunakan **MinGW** atau **MSYS2**  
 ```bash
-g++ --version
+c++ --version
+
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![C++](https://img.shields.io/badge/language-C++-blue)
+![Learning Stage](https://img.shields.io/badge/learning-beginner-yellow)
