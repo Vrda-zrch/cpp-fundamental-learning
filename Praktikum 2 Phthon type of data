@@ -1,0 +1,76 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNeRMIylHssq1aalaKL79Hm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Vrda-zrch/cpp-fundamental-learning/blob/main/Praktikum%202%20Phthon%20type%20of%20data\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi. Phython sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain. Berikut adalah tipe data pada Phython."
+      ],
+      "metadata": {
+        "id": "Ox4qbc6PcCJn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data string dengan menjelaskan spesial karakter atau escape sequences\n",
+        "print('ini adalah tanda single quote (\\')')\n",
+        "print(\"ini adalah tanda double quote (\\\")\")\n",
+        "print(\"ini adalah tanda slash (\\\\)\")\n",
+        "print(\"Algoritma\\nPemrograman\") #menggunakan \\n\n",
+        "print(\"Algoritma\\bPemrograman\") #menggunakan \\b\n",
+        "print(\"Algoritma\\tPemrograman\") #menggunakan \\t\n",
+        "print(\"Algoritma\\rPemrograman\") #menggunakan \\b\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q8QnougmW_UZ",
+        "outputId": "058ac4ce-3a75-4dde-cba9-dc87fd1b8639"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ini adalah tanda single quote (')\n",
+            "ini adalah tanda double quote (\")\n",
+            "ini adalah tanda slash (\\)\n",
+            "Algoritma\n",
+            "Pemrograman\n",
+            "Algoritma\bPemrograman\n",
+            "Algoritma\tPemrograman\n",
+            "Algoritma\rPemrograman\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
