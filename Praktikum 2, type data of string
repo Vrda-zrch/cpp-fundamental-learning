@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP9f8PqAzYrWbPfJKp9sY9a",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Vrda-zrch/cpp-fundamental-learning/blob/main/Praktikum%202%2C%20type%20data%20of%20string\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Type data"
+      ],
+      "metadata": {
+        "id": "W-51FW2UgNwb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data String\n",
+        "print(\"string dengan menggunakan tanda kutip dua\")\n",
+        "print('ini string menggunakan tanda kutip satu')\n",
+        "#tipe data string dengan menjelaskan spesial karakter atau escape sequences\n",
+        "print('ini adalah tanda single quote (\\')')\n",
+        "print(\"ini adalah tanda double quote (\\\")\")\n",
+        "print(\"ini adalah tanda slash (\\\\)\")\n",
+        "print(\"Algoritma\\nPemrograman\") #menggunakan \\n\n",
+        "print(\"Algoritma\\bPemrograman\") #menggunakan \\b\n",
+        "print(\"Algoritma\\tPemrograman\") #menggunakan \\t\n",
+        "print(\"Algoritma\\rPemrograman\") #menggunakan \\b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SUsj2nB_gQw4",
+        "outputId": "62019345-724b-4741-8b8e-7547a82c6108"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "string dengan menggunakan tanda kutip dua\n",
+            "ini string menggunakan tanda kutip satu\n",
+            "ini adalah tanda single quote (')\n",
+            "ini adalah tanda double quote (\")\n",
+            "ini adalah tanda slash (\\)\n",
+            "Algoritma\n",
+            "Pemrograman\n",
+            "Algoritma\bPemrograman\n",
+            "Algoritma\tPemrograman\n",
+            "Algoritma\rPemrograman\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
