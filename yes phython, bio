@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOyd5b148wo4c8O+EI1G1u6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Vrda-zrch/cpp-fundamental-learning/blob/main/yes%20phython%2C%20bio\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Type Data"
+      ],
+      "metadata": {
+        "id": "mcK7nodiec77"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print({\"nama\":\"Budi\", 'umur':20})\n",
+        "biodata = {\"nama\":\"Budi\", 'umur':21}\n",
+        "print(biodata)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cSMDcKoKdykl",
+        "outputId": "24f77610-fb5f-4fa4-e334-0b06cb412ab2"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'nama': 'Budi', 'umur': 20}\n",
+            "{'nama': 'Budi', 'umur': 21}\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
