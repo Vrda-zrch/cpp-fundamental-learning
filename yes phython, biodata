@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNfHbfUDnnsjEtbGaol+Ck5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Vrda-zrch/cpp-fundamental-learning/blob/main/yes%20phython%2C%20biodata\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi. Phython sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain. Berikut adalah tipe data pada Phython."
+      ],
+      "metadata": {
+        "id": "9oLKhu_bdw9N"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#tipe data Dictionary\n",
+        "print({\"nama\":\"Budi\", 'umur':20})\n",
+        "#tipe data Dictionary dimasukan ke dalam variabel biodata\n",
+        "biodata = {\"nama\":\"Budi\", 'umur':21} #proses inisialisasi variabel biodata\n",
+        "print(biodata) #proses pencetakan variabel biodata yang berisi tipe data Dictionary"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cSMDcKoKdykl",
+        "outputId": "0270c6b4-d55f-4a58-dd22-6f6e863c493d"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'nama': 'Budi', 'umur': 20}\n",
+            "{'nama': 'Budi', 'umur': 21}\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
