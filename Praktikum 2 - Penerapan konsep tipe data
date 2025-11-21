@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMlS/CIS5a5XSkXHGxJ5C1k",
+      "authorship_tag": "ABX9TyNRDRQKIuJLqsofXHdXaZ8i",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -27,41 +27,13 @@
       ]
     },
     {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "gFkDksNtSJ73"
-      },
-      "outputs": [],
+      "cell_type": "markdown",
       "source": [
-        "Phython Sederhana"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "#tipe data String\n",
-        "print(\"string dengan menggunakan tanda kutip dua\")\n",
-        "print('ini string menggunakan tanda kutip satu')"
+        "Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi. Phython sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain. Berikut adalah tipe data pada Phython."
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "3B0p9sd5Sm7q",
-        "outputId": "e363849c-7667-4e65-adb4-1376365d430e"
-      },
-      "execution_count": 2,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "string dengan menggunakan tanda kutip dua\n",
-            "ini string menggunakan tanda kutip satu\n"
-          ]
-        }
-      ]
+        "id": "Ox4qbc6PcCJn"
+      }
     },
     {
       "cell_type": "code",
