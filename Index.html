@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeeCu</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #fdf6f0;
+        font-family: Arial;
+        margin: 20px;
+      }
+
+      h1 {
+        font-family: "Pacifico", cursive;
+        text-align: center;
+        color: #6b3e26;
+        font-size: 40px;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: auto;
+      }
+
+      .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid #a67c52;
+        background-color: #fffaf5;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px 0;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+
+      .menu:hover {
+        background-color: #fce8d5;
+        transform: scale(1.02);
+      }
+
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+
+      .right {
+        text-align: right;
+      }
+
+      .count {
+        font-weight: bold;
+        color: #6b3e26;
+      }
+
+      .total {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #fff3e6;
+        border-radius: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CoffeeCu`</h1>
+
+    <div class="container">
+      <div class="menu" onclick="addItem">
+        <div class="left">
+          <img src="download.jpeg" />
+        </div>
+        <h3>Espresso</h3>
+      </div>
+    </div>
+    <div class="right">
+      <p>Rp 20.000</p>
+      <p class="count">0</p>
+    </div>
+
+    <div class="menu" onclick="addItem(1)">
+      <div class="left">
+        <img src="download (1).jpeg" />
+      </div>
+      <h3>Cappucino</h3>
+    </div>
+
+    <div class="right">
+      <p>Rp 25.000</p>
+      <p class="count">0</p>
+    </div>
+
+    <div class="menu" onclick="addItem(2)">
+      <div class="left">
+        <img src="images (2).jpeg" />
+      </div>
+      <h3>Latte</h3>
+    </div>
+    <div class="right">
+      <p>Rp 27.000</p>
+      <p class="count">0</p>
+    </div>
+
+    <script>
+      let harga = [20000, 25000, 27000];
+      let jumlah = [0, 0, 0];
+
+      function addItem(index) {
+        if (jumlah[index] < 5) jumlah[index]++;
+      }
+
+      document.getElementsByClassName("count")[index].innerText = jumlah[index];
+
+      let totalItem = 0;
+      let totalHarga = 0;
+
+      for (let i = 0; i < jumlah.length; i++) {
+        totalItem += jumlah[i];
+        totalHarga += jumlah[i];
+      }
+      document.getElementById("totalItem").innerText = totalItem;
+      document.getElementById("totalHarga").innerText = totalHarga;
+    </script>
+  </body>
+</html>
